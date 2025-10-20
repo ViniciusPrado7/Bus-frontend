@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: facubus-frontend
+    ports:
+      - "5173:80"  # Porta externa 5173 → interna 80 (nginx)
+    networks:
+      - facubus-network
+
+networks:
+  facubus-network:
+    driver: bridge

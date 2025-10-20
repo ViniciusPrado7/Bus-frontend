@@ -1,0 +1,97 @@
+.ContainerCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.H2Lista {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.DivTable {
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.DivTable table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: #FFFFFF;
+    color: rgb(3, 0, 41);
+}
+
+.DivTable thead {
+    background: #FFFFFF;
+    color: #000;
+}
+
+.DivTable th,
+.DivTable td {
+    padding: 12px 11px;
+    text-align: center;
+}
+
+.DivTable th {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border: 1px solid rgb(3, 0, 41);
+}
+
+.DivTable td {
+    color: rgb(6, 2, 65);
+    border: 1px solid #E6E6E6;
+
+}
+
+.ThTable {
+    background: rgb(3, 0, 41);
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.ButtonAcao {
+    border: 1px solid rgb(3, 0, 41);
+    padding: .6rem;
+    width: 3.7rem;
+    border-radius: 6px;
+    background: rgb(3, 0, 41);
+    cursor: pointer;
+    transition: .3s ease-in;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: .5rem;
+}
+
+.ButtonAcao:hover {
+    background: #FFF;
+    color: rgb(3, 0, 41);
+}
+
+.DivAdministrativo {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.ButtonAcaoAdministrativo {
+    border: 1px solid rgb(3, 0, 41);
+    padding: .6rem;
+    width: 5rem;
+    border-radius: 6px;
+    background: rgb(3, 0, 41);
+    cursor: pointer;
+    transition: .3s ease-in;
+    color: #FFF;
+    text-decoration: none;
+    margin-right: .5rem;
+}
+
+.ButtonAcaoAdministrativo:hover {
+    background: #FFF;
+    color: rgb(3, 0, 41);
+}

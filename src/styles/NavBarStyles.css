@@ -1,0 +1,33 @@
+.Nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 4rem;
+    background-color: rgb(3, 0, 41);
+    color: #FFF;
+    text-align: center;
+}
+
+.UListaNav {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.LinkItemNav {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+}
+
+.BtnLogout {
+    background-color: rgb(3, 0, 41);
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    margin-right: 4rem;
+}

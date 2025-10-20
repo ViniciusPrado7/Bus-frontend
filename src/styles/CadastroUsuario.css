@@ -1,0 +1,59 @@
+.ContainerCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.FormCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    gap: 1rem;
+    background-color: rgb(3, 0, 41);
+    padding: 6.5rem 4rem;
+    border: 1px solid #E6E6E6;
+    border-radius: 24px;
+    margin-top: 3rem;
+}
+
+.InputCadastro {
+    width: 30%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+
+.ButtonCadastro {
+    margin-top: 2rem;
+    width: 10rem;
+    background-color: rgb(2, 0, 27);
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem;
+    transition: background-color 0.2s ease-in;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.ButtonCadastro:hover {
+    background-color: rgb(6, 2, 65);
+    color: #FFF;
+}
+
+.SelectCadastro {
+    width: 33%;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
